@@ -182,11 +182,6 @@ export const Home = () => {
           ) : (
             <p>{taskList.length} task(s)</p>
           )}
-          {taskList.length > 0 && (
-            <button className="btn btn-danger" onClick={() => setTaskList([])}>
-              Clear All Tasks
-            </button>
-          )}
         </div>
       </section>
     </div>
